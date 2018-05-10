@@ -44,7 +44,7 @@
     }
     function refresh() {
       var xhttp = new XMLHttpRequest();
-      xhttp.open("GET", "https://dyv5vjb61k.execute-api.us-east-1.amazonaws.com/prod/mydemoresource", true);
+      xhttp.open("GET", "https://dyv5vjb61k.execute-api.us-east-1.amazonaws.com/prod", true);
       xhttp.send();
       xhttp.addEventListener("readystatechange", processRequest, false);
       function processRequest(e) {
