@@ -52,11 +52,13 @@
           var response = JSON.parse(xhttp.responseText);
           var numberString = response.dogPicture;
           if(numberString < 5 && numberString > 0) {
+            alert("Hello 1");
             showFullImage(numberString);
           } else {
+            alert("Hello 2");
             showGridView();
           }
-          console.log(numberString);
+          //console.log(numberString);
         }
       }
       setTimeout(refresh, 1000);
