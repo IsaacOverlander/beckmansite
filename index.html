@@ -52,10 +52,8 @@
           var response = JSON.parse(xhttp.responseText);
           var numberString = response.picture;
           if(numberString < 5 && numberString > 0) {
-            alert("Hello 1");
             showFullImage(numberString);
           } else {
-            alert("Hello 2");
             showGridView();
           }
           //console.log(numberString);
